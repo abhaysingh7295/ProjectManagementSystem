@@ -1,0 +1,2 @@
+[2021-10-20 09:26:22] production.ERROR: purchase license key not provided {"process":"[updates]","0":"2516477","function":"checkUpdates","file":"Updates.php","line":102,"path":"/var/www/html/pms.skunktest.work/application/app/Http/Controllers/Settings/Updates.php"} 
+[2021-10-22 15:22:30] production.ERROR: purchase license key not provided {"process":"[updates]","0":"17f8929","function":"checkUpdates","file":"Updates.php","line":102,"path":"/var/www/html/pms.skunktest.work/application/app/Http/Controllers/Settings/Updates.php"} 

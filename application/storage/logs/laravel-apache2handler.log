@@ -1,0 +1,43 @@
+[2021-12-01 10:35:08] production.ERROR: Cannot use App\Http\Controllers\Mobileapi\AuthController as AuthController because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use App\\Http\\Controllers\\Mobileapi\\AuthController as AuthController because the name is already in use at E:\\xampp\\htdocs\\internal-pms\\application\outes\\api.php:6)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-01 10:36:56] production.ERROR: Undefined property: Illuminate\Routing\RouteFileRegistrar::$namespace {"exception":"[object] (ErrorException(code: 0): Undefined property: Illuminate\\Routing\\RouteFileRegistrar::$namespace at E:\\xampp\\htdocs\\internal-pms\\application\outes\\api.php:36)
+[stacktrace]
+#0 E:\\xampp\\htdocs\\internal-pms\\application\outes\\api.php(36): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'E:\\\\xampp\\\\htdocs...', 36, Array)
+#1 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('E:\\\\xampp\\\\htdocs...')
+#2 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('E:\\\\xampp\\\\htdocs...')
+#3 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('E:\\\\xampp\\\\htdocs...')
+#4 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'E:\\\\xampp\\\\htdocs...')
+#5 E:\\xampp\\htdocs\\internal-pms\\application\outes\\api.php(37): Illuminate\\Routing\\RouteRegistrar->group('E:\\\\xampp\\\\htdocs...')
+#6 E:\\xampp\\htdocs\\internal-pms\\application\\app\\Providers\\RouteServiceProvider.php(80): require('E:\\\\xampp\\\\htdocs...')
+#7 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}(Object(Illuminate\\Routing\\Router))
+#8 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes(Object(Closure))
+#9 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, Object(Closure))
+#10 E:\\xampp\\htdocs\\internal-pms\\application\\app\\Providers\\RouteServiceProvider.php(81): Illuminate\\Routing\\RouteRegistrar->group(Object(Closure))
+#11 E:\\xampp\\htdocs\\internal-pms\\application\\app\\Providers\\RouteServiceProvider.php(41): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#12 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#13 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#18 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#19 E:\\xampp\\htdocs\\internal-pms\\application\\app\\Providers\\RouteServiceProvider.php(32): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#20 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->boot()
+#21 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#22 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#23 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#24 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#25 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(867): Illuminate\\Container\\Container->call(Array)
+#26 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#27 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 26)
+#28 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#29 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#30 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#31 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#32 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(135): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#33 E:\\xampp\\htdocs\\internal-pms\\application\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(109): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#34 E:\\xampp\\htdocs\\internal-pms\\index.php(92): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#35 {main}
+"} 
